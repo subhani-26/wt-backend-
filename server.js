@@ -10,7 +10,7 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const MONGO_URI = process.env.MONGO_URI || "mongodb://127.0.0.1:27017/greeshma_db";
+const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://mahaboobsubhanisk639:D8ahOft2IPPSPP1i@cluster0.5kfzff6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 app.use(express.json());
 app.use(cors());
