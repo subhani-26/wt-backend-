@@ -6,7 +6,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import Seat from './models/Seat.js'; // Import the Seat model
 
-dotenv.config();
+dotenv.config();//hi
 
 const app = express();
 const PORT = process.env.PORT || 5000;
